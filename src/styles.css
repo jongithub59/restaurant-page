@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Overwatch';
+    src: url('./big_noodle_titling_oblique.ttf');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: rgb(215,212,208);
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    background-color: #787978;
+    color: 	#b6ef13;
+    font-family: 'Overwatch';
+    height: 150px;
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+#chef {
+    height: 155px;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+}
