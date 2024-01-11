@@ -4,12 +4,17 @@
     font-weight: 600;
     font-style: normal;
   }
+
+  :root {
+    --green: #b6ef13;
+    --element-background: rgba(14, 14, 14, 0.8);
+}
   
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: 'Overwatch', sans-serif;
 
 }
 
@@ -20,14 +25,18 @@ body {
 #content {
     display: flex;
     flex-direction: column;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .header {
     display: flex;
     margin: auto;
-    background-color: #787978;
-    color: 	#b6ef13;
-    font-family: 'Overwatch';
+    background-color: var(--element-background);
+    color: 	var(--green);
     height: 150px;
     letter-spacing: 2px;
     width: 100%;
@@ -42,5 +51,61 @@ body {
 
 .main {
     height: 100%;
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav {
+    height: 250px;
+    width: 750px;
+    margin: 20px;
+    align-self: self-start;
+    color: var(--green);
+    background-color: var(--element-background);
+    border-radius: 10px;
+    font-size: 60px;
+}
+
+.nav ul {
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav li {
+    cursor: pointer;
+}
+
+.about {
+    height: 950px;
+    width: 700px;
+    background-color: var(--element-background);
+    border-radius: 10px;
+    font-size: 27px;
+    justify-self: center;
+    color: var(--green)
+}
+
+.about h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about p {
+    margin: 20px;
+}
+
+.genji-image {
+    display: flex;
+    height: 1000px;
+    align-self: flex-end;
+}
+
+.genji {
+    height: 100%;
 }
