@@ -5,6 +5,13 @@
     font-style: normal;
   }
 
+@font-face {
+    font-family: 'MainText';
+    src: url('kenyan\ coffee\ rg.otf');
+    font-weight: 600;
+    font-style: normal;
+  }
+
   :root {
     --green: #b6ef13;
     --element-background: rgba(14, 14, 14, 0.8);
@@ -19,16 +26,18 @@
 }
 
 body {
-    background-color: rgb(215,212,208);
+    color: var(--green);
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 #content {
     display: flex;
     flex-direction: column;
-    background-image: url("background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100vh;
 }
 
@@ -38,7 +47,7 @@ body {
     background-color: var(--element-background);
     color: 	var(--green);
     height: 150px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     width: 100%;
     font-size: 75px;
     justify-content: center;
@@ -61,8 +70,7 @@ body {
     height: 250px;
     width: 750px;
     margin: 20px;
-    align-self: self-start;
-    color: var(--green);
+    align-self: flex-start;
     background-color: var(--element-background);
     border-radius: 10px;
     font-size: 60px;
@@ -84,11 +92,11 @@ body {
 .about {
     height: 950px;
     width: 700px;
+    margin: 20px;
     background-color: var(--element-background);
     border-radius: 10px;
-    font-size: 27px;
-    justify-self: center;
-    color: var(--green)
+    font-size: 25px;
+    align-self: start;
 }
 
 .about h2 {
@@ -98,6 +106,67 @@ body {
 
 .about p {
     margin: 20px;
+    font-family: "MainText", sans-serif;
+}
+
+.menu {
+    height: 950px;
+    width: 700px;
+    margin: 20px;
+    background-color: var(--element-background);
+    border-radius: 10px;
+    font-size: 25px;
+    align-self: start;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu ul {
+    margin: 10px 20px 20px;
+    list-style-type: none;
+}
+
+.menu li {
+    font-family: "MainText", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contact {
+    height: 950px;
+    width: 700px;
+    margin: 20px;
+    background-color: var(--element-background);
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    align-self: start;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact ul {
+    margin: 20px;
+    font-family: "MainText";
+    list-style-type: none;
+}
+
+.contact li {
+    font-family: "MainText", sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.address {
+    height: 450px;
+    width: 80%;
+    border-radius: 5px;
 }
 
 .genji-image {
