@@ -1,4 +1,4 @@
-
+import createContact from "./contact"
 
 function createHeader() {
     const header = document.createElement('div')

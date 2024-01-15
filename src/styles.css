@@ -89,6 +89,10 @@ body {
     cursor: pointer;
 }
 
+.nav li:hover {
+    color: #d3ff5c;
+}
+
 .about {
     height: 950px;
     width: 700px;
@@ -155,6 +159,10 @@ body {
     margin: 20px;
     font-family: "MainText";
     list-style-type: none;
+}
+
+.contact h2 {
+    margin: 15px;
 }
 
 .contact li {
