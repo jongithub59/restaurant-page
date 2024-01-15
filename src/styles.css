@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Overwatch';
-    src: url('./big_noodle_titling_oblique.ttf');
+    src: url('./fonts/big_noodle_titling_oblique.ttf');
     font-weight: 600;
     font-style: normal;
   }
 
 @font-face {
     font-family: 'MainText';
-    src: url('kenyan\ coffee\ rg.otf');
+    src: url('./fonts/kenyan\ coffee\ rg.otf');
     font-weight: 600;
     font-style: normal;
   }
@@ -27,7 +27,7 @@
 
 body {
     color: var(--green);
-    background-image: url("background.jpg");
+    background-image: url("./pics/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
