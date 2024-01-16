@@ -33,4 +33,10 @@ function createContact() {
     return contact
 }
 
-export default createContact
+function addContact() {
+    const info = document.querySelector('.info')
+    info.innerHTML = ''
+    info.appendChild(createContact())
+}
+
+export default addContact

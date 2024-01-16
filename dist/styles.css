@@ -58,6 +58,7 @@ body {
     height: 155px;
 }
 
+
 .main {
     height: 100%;
     width: 100%;
@@ -69,7 +70,7 @@ body {
 .nav {
     height: 250px;
     width: 750px;
-    margin: 20px;
+    margin: 30px;
     align-self: flex-start;
     background-color: var(--element-background);
     border-radius: 10px;
@@ -93,7 +94,17 @@ body {
     color: #d3ff5c;
 }
 
-.about {
+.info {
+    height: 950px;
+    width: 750px;
+    margin: 30px;
+    background-color: var(--element-background);
+    border-radius: 10px;
+    font-size: 25px;
+    align-self: start;
+}
+
+/* .about {
     height: 950px;
     width: 700px;
     margin: 20px;
@@ -101,11 +112,11 @@ body {
     border-radius: 10px;
     font-size: 25px;
     align-self: start;
-}
+} */
 
-.about h2 {
+h2 {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .about p {
@@ -113,7 +124,7 @@ body {
     font-family: "MainText", sans-serif;
 }
 
-.menu {
+/* .menu {
     height: 950px;
     width: 700px;
     margin: 20px;
@@ -121,12 +132,7 @@ body {
     border-radius: 10px;
     font-size: 25px;
     align-self: start;
-}
-
-.menu h2 {
-    text-align: center;
-    margin-top: 10px;
-}
+} */
 
 .menu ul {
     margin: 10px 20px 20px;
@@ -140,6 +146,10 @@ body {
 }
 
 .contact {
+    text-align: center;
+}
+
+/* .contact {
     height: 950px;
     width: 700px;
     margin: 20px;
@@ -148,21 +158,17 @@ body {
     font-size: 25px;
     text-align: center;
     align-self: start;
-}
+} */
 
-.contact h1 {
+h1 {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .contact ul {
     margin: 20px;
     font-family: "MainText";
     list-style-type: none;
-}
-
-.contact h2 {
-    margin: 15px;
 }
 
 .contact li {
@@ -172,6 +178,7 @@ body {
 }
 
 .address {
+    margin: auto;
     height: 450px;
     width: 80%;
     border-radius: 5px;

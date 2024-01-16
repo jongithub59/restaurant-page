@@ -6,7 +6,6 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
   },
   module: {
     rules: [
@@ -17,12 +16,12 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
-        outputPath: "pics" //need to have outputPath if image files are stored in a folder
+        // outputPath: "pics" //need to have outputPath if image files are stored in a folder
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
-        outputPath: "fonts"
+        // outputPath: "fonts"
       },
     ],
   },

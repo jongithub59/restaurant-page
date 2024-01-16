@@ -57,4 +57,10 @@ function createMenuDescription(description) {
     return menuDescription
 }
 
-export default createMenu
+function addMenu() {
+    const info = document.querySelector('.info')
+    info.textContent = ''
+    info.appendChild(createMenu())
+}
+
+export default addMenu
