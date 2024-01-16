@@ -11,7 +11,7 @@ Live preview [here]().
 
 * Uses individual modules for each tab
 * Uses Webpack bundling
-* all site content added with JavaScript only
+* All site content added with JavaScript only
 
 ## Reflection:
 
