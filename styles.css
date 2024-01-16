@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Overwatch';
+    src: url('./fonts/big_noodle_titling_oblique.ttf');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'MainText';
+    src: url('./fonts/kenyan\ coffee\ rg.otf');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  :root {
+    --green: #b6ef13;
+    --element-background: rgba(14, 14, 14, 0.8);
+}
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overwatch', sans-serif;
+
+}
+
+body {
+    color: var(--green);
+    background-image: url("./pics/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    background-color: var(--element-background);
+    color: 	var(--green);
+    height: 150px;
+    letter-spacing: 1px;
+    width: 100%;
+    font-size: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+#chef {
+    height: 155px;
+}
+
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav {
+    height: 250px;
+    width: 750px;
+    margin: 30px;
+    align-self: flex-start;
+    background-color: var(--element-background);
+    border-radius: 10px;
+    font-size: 60px;
+}
+
+.nav ul {
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav li {
+    cursor: pointer;
+}
+
+.nav li:hover {
+    color: #d3ff5c;
+}
+
+.info {
+    height: 950px;
+    width: 750px;
+    margin: 30px;
+    background-color: var(--element-background);
+    border-radius: 10px;
+    font-size: 25px;
+    align-self: start;
+}
+
+/* .about {
+    height: 950px;
+    width: 700px;
+    margin: 20px;
+    background-color: var(--element-background);
+    border-radius: 10px;
+    font-size: 25px;
+    align-self: start;
+} */
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about p {
+    margin: 20px;
+    font-family: "MainText", sans-serif;
+}
+
+/* .menu {
+    height: 950px;
+    width: 700px;
+    margin: 20px;
+    background-color: var(--element-background);
+    border-radius: 10px;
+    font-size: 25px;
+    align-self: start;
+} */
+
+.menu ul {
+    margin: 10px 20px 20px;
+    list-style-type: none;
+}
+
+.menu li {
+    font-family: "MainText", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contact {
+    text-align: center;
+}
+
+/* .contact {
+    height: 950px;
+    width: 700px;
+    margin: 20px;
+    background-color: var(--element-background);
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    align-self: start;
+} */
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact ul {
+    margin: 20px;
+    font-family: "MainText";
+    list-style-type: none;
+}
+
+.contact li {
+    font-family: "MainText", sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.address {
+    margin: auto;
+    height: 450px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.genji-image {
+    display: flex;
+    height: 1000px;
+    align-self: flex-end;
+}
+
+.genji {
+    height: 100%;
+}
