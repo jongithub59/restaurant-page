@@ -22,7 +22,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Overwatch', sans-serif;
-
 }
 
 body {
@@ -32,7 +31,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 #content {
@@ -75,6 +73,7 @@ body {
     background-color: var(--element-background);
     border-radius: 10px;
     font-size: 60px;
+    animation: fadeIn 0.7s;
 }
 
 .nav ul {
@@ -88,10 +87,17 @@ body {
 
 .nav li {
     cursor: pointer;
+    transition: transform 0.2s;
 }
 
 .nav li:hover {
     color: #d3ff5c;
+    transform: scale(1.1);
+}
+
+.nav li:active {
+    transform: scale(1);
+    color: aqua;
 }
 
 .info {
@@ -102,6 +108,16 @@ body {
     border-radius: 10px;
     font-size: 25px;
     align-self: start;
+    animation: fadeIn 1s;
+}
+
+.about {
+    animation: fadeIn 1s;
+}
+
+.about a {
+    color: #d3ff5c;
+    font-family: MainText, sans-serif;
 }
 
 /* .about {
@@ -122,6 +138,10 @@ h2 {
 .about p {
     margin: 20px;
     font-family: "MainText", sans-serif;
+}
+
+.menu {
+    animation: fadeIn 1s;
 }
 
 /* .menu {
@@ -147,6 +167,7 @@ h2 {
 
 .contact {
     text-align: center;
+    animation: fadeIn 1s;
 }
 
 /* .contact {
@@ -193,3 +214,14 @@ h1 {
 .genji {
     height: 100%;
 }
+
+/* Simple animation that causes an element to begin transparent and finish at full opacity */
+@keyframes fadeIn { 
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
