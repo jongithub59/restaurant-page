@@ -18,3 +18,4 @@ Live preview [here](https://jongithub59.github.io/restaurant-page/).
 * Learned Webpack basics and familiarity
 * Learned how to modularize code
 * Learned project directory structuring basics
+* Learned to use CSS animations for the first time
