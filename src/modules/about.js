@@ -6,7 +6,8 @@ function createAbout() {
     const aboutText = document.createElement('p')
     //backticks allow the text be formmattd like this and innerhtml alloes the use of <br> for new lines, this is fine since this is trusted text
     aboutText.innerHTML = ` 
-    In the bustling streets of Japan, Genji, the enigmatic cybernetic ninja, has embarked on a new venture that transcends his warrior past. 
+    In the bustling streets of Japan, <a href='https://overwatch.fandom.com/wiki/Genji#Story' target='_blank' title="Genji's backstory">Genji</a>, 
+    the enigmatic cybernetic ninja, has embarked on a new venture that transcends his warrior past. 
     Introducing "The Hungry Dragon", a unique and innovative restaurant that blends the ancient traditions of Japan with futuristic culinary 
     experiences. Nestled in the heart of Genji's homeland, this dining establishment is a testament to his journey of self-discovery and 
     cultural fusion. <br> <br>
