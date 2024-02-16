@@ -5,11 +5,11 @@
 This project was built following the Odin Project [curriculum](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page)
 and and uses modular programming.
 
-Live preview [here](https://jongithub59.github.io/restaurant-page/).
+Live preview [here](https://jongithub59.github.io/to-do-list/).
 
 ## Features:
 
-* Uses individual modules for each tab
+* Uses individual modules of each tab
 * Uses Webpack bundling
 * All site content added with JavaScript only
 
