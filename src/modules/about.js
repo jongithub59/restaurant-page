@@ -32,7 +32,7 @@ function createAbout() {
 }
 
 function addAbout() {
-    const info = document.querySelector('.info') //create new container and wipe the old one, then append teh new madule we want
+    const info = document.querySelector('.info') //create new container and wipe the old one, then append the new madule we want
     info.innerHTML = ''
     info.appendChild(createAbout())
 }
